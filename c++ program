@@ -1,0 +1,26 @@
+# code-for-new
+this a general purpose
+#include<iostream>
+using namespace std;
+class ABC{
+	static int a;
+	public:
+		void increase(){
+			a++;
+		}
+		void display()
+	{
+		cout<<endl<<"a="<<a;
+	}
+};
+int ABC::a;
+int main(){
+	ABC ob1,ob2;
+	ob1.increase();
+//	ob2.increase();
+	ob1.display();
+	ob2.increase();
+	ob2.display();
+
+	
+}
